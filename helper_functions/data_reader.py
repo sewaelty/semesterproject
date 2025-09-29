@@ -101,3 +101,14 @@ def getSourceIDs():
     df_source_ids = pd.read_csv(source_ids_path)
 
     return df_source_ids
+
+
+def getReserves():
+    """
+    Loads the reserves dataset and performs basic inspections.
+    """
+
+    reserves_path = "data/mining/jasansky/data/reserves.csv"
+    df_reserves = pd.read_csv(reserves_path)
+
+    return df_reserves
