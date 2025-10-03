@@ -8,7 +8,7 @@ def getCFs():
     prepares the data, and returns a pandas DataFrame.
     """
 
-    filepath = "data/PDF/CF.csv"
+    filepath = "data/PDF/CF_domain.csv"
     df_CF = pd.read_csv(filepath, delimiter=",", encoding="latin1")
 
     return df_CF
