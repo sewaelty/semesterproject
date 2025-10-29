@@ -119,7 +119,7 @@ def getMaterialsList():
     Loads the materials list dataset and performs basic inspections.
     """
 
-    materials_list_path = "data/mining/jasansky/materials_covered.xlsx"
+    materials_list_path = "data/manual/materials_prices.xlsx"
     df_materials_list = pd.read_excel(materials_list_path)
 
     return df_materials_list
